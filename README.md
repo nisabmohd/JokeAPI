@@ -3,14 +3,19 @@
 
  A simple API that gives you random Jokes 
 
-<br>
+<p>   </p>
 
 ### API Reference
 
 #### Get all items
 
+<<<<<<< HEAD
 ```http
   GET /dank
+=======
+```
+  GET/all
+>>>>>>> 7d7747d43dd9c62714500e085cc08f4f57b614fd
 ```
 
 | Parameter | Type     | Description                |
@@ -19,8 +24,13 @@
 
 #### Get dank jokes
 
+<<<<<<< HEAD
 ```http
   GET /political
+=======
+```
+  GET/dank
+>>>>>>> 7d7747d43dd9c62714500e085cc08f4f57b614fd
 ```
 
 | Parameter | Type     | Description                       |
@@ -32,8 +42,13 @@
 
 #### Get jokes from below parameter 
 
+<<<<<<< HEAD
 ```http
   GET /{parameter}
+=======
+```
+  GET/{Parameter}
+>>>>>>> 7d7747d43dd9c62714500e085cc08f4f57b614fd
 ```
 
 | Parameter | Type     | Description                       |
