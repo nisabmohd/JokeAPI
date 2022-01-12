@@ -8,7 +8,7 @@
 
 ### API Reference
 
-#### Get all items
+#### Get clean jokes
 
 ```
   GET /clean
