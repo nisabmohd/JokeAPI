@@ -10,38 +10,37 @@
 #### Get all items
 
 ```http
-  GET /all
+  GET /dank
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `all` | `string` | `All jokes`| 
+| `dank` | `string` | `dank jokes`| 
 
 #### Get dank jokes
 
 ```http
-  GET /dank
+  GET /political
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `political`      | `string` | `dank jokes` |
+| `clean`      | `string` | `clean jokes` |
 
 
 ###
 
-#### Get jokes from below Parameter 
+#### Get jokes from below parameter 
 
 ```http
-  GET /{Parameter}
+  GET /{parameter}
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `dank`      | `string` | `dank jokes` |
 | `political`      | `string` | `political jokes` |
-| `parody `      | `string` | `parody  jokes` |
-| `funny`      | `string` | `funny jokes` |
+| `dry `      | `string` | `dry  jokes` |
 | `clean`      | `string` | `clean jokes` |
 
 
@@ -50,10 +49,10 @@
 #### Response
 ```
 {
-    content: "What is a computer's favourite snack? Computer chips",
-    sources: "parade.com",
-    type: "funny",
-    id: "28",
-    url: null
+  "content": "What is a computer's favourite snack? Computer chips",
+  "sources": "laughfactory",
+  "type": "clean",
+  "id": "c3",
+  "url": "http://www.laughfactory.com/jokes/clean-jokes"
 }
 ```

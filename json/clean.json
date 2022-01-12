@@ -1,0 +1,72 @@
+[
+    {
+        "content": "What is a computer's favourite snack? Computer chips",
+        "sources": "parade.com",
+        "type": "clean",
+        "id": "c1",
+        "url": null
+    },
+    {
+        "content": "My friend thinks he is smart. He told me an onion is the only food that makes you cry, so I threw a coconut at his face.",
+        "sources": "paradexyz.com",
+        "type": "clean",
+        "id": "c2",
+        "url": null
+    },
+    {
+        "content": "What happens to a frog's car when it breaks down?  It gets toad away.",
+        "sources": "laughfactory",
+        "type": "clean",
+        "id": "c3",
+        "url": "http://www.laughfactory.com/jokes/clean-jokes"
+    },
+    {
+        "content": "Q: Is Google male or female? A: Female, because it doesn't let you finish a sentence before making a suggestion.",
+        "sources": "laughfactory",
+        "type": "clean",
+        "id": "c4",
+        "url": "http://www.laughfactory.com/jokes/clean-jokes"
+    },
+    {
+        "content": "Q: What did the duck say when he bought lipstick? A: 'Put it on my bill.'",
+        "sources": "laughfactory",
+        "type": "clean",
+        "id": "c5",
+        "url": "http://www.laughfactory.com/jokes/clean-jokes"
+    },
+    {
+        "content": "Q: Why did the witches' team lose the baseball game? A: Their bats flew away.",
+        "sources": "laughfactory",
+        "type": "clean",
+        "id": "c6",
+        "url": "http://www.laughfactory.com/jokes/clean-jokes"
+    },
+    {
+        "content": "Why did the tomato blush? Because it saw the salad dressing.",
+        "sources": null,
+        "type": "clean",
+        "id": "c7",
+        "url": "https://www.fatherly.com/play/91-great-clean-jokes-for-funny-people-who-dont-swear/"
+    },
+    {
+        "content": "Why did the tomato blush? Because it saw the salad dressing.",
+        "sources": null,
+        "type": "clean",
+        "id": "c8",
+        "url": "https://www.fatherly.com/play/91-great-clean-jokes-for-funny-people-who-dont-swear/"
+    },
+    {
+        "content": "What’s orange and sounds like a parrot? A carrot.",
+        "sources": null,
+        "type": "clean",
+        "id": "c9",
+        "url": "https://www.fatherly.com/play/91-great-clean-jokes-for-funny-people-who-dont-swear/"
+    },
+    {
+        "content": "How does NASA organize a party? They planet.",
+        "sources": "internet",
+        "type": "clean",
+        "id": "c10",
+        "url": "https://www.scarymommy.com/best-clean-funny-jokes/"
+    }
+]
