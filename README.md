@@ -5,50 +5,36 @@
 
 <p>   </p>
 
+
 ### API Reference
 
 #### Get all items
 
-<<<<<<< HEAD
-```http
-  GET /dank
-=======
 ```
-  GET/all
->>>>>>> 7d7747d43dd9c62714500e085cc08f4f57b614fd
+  GET /clean
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `dank` | `string` | `dank jokes`| 
+| `clean` | `string` | `clean jokes`| 
 
 #### Get dank jokes
 
-<<<<<<< HEAD
-```http
-  GET /political
-=======
 ```
-  GET/dank
->>>>>>> 7d7747d43dd9c62714500e085cc08f4f57b614fd
+  GET /dank
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `clean`      | `string` | `clean jokes` |
+| `dank`      | `string` | `dank jokes` |
 
 
 ###
 
-#### Get jokes from below parameter 
+#### Get jokes from below Parameter 
 
-<<<<<<< HEAD
-```http
-  GET /{parameter}
-=======
 ```
-  GET/{Parameter}
->>>>>>> 7d7747d43dd9c62714500e085cc08f4f57b614fd
+  GET /{Parameter}
 ```
 
 | Parameter | Type     | Description                       |
@@ -56,7 +42,8 @@
 | `dank`      | `string` | `dank jokes` |
 | `political`      | `string` | `political jokes` |
 | `dry `      | `string` | `dry  jokes` |
-| `clean`      | `string` | `clean jokes` |
+| `dumb`      | `string` | `dumb jokes` |
+
 
 
 
@@ -64,10 +51,10 @@
 #### Response
 ```
 {
-  "content": "What is a computer's favourite snack? Computer chips",
-  "sources": "laughfactory",
-  "type": "clean",
-  "id": "c3",
-  "url": "http://www.laughfactory.com/jokes/clean-jokes"
+    content: "What is a computer's favourite snack? Computer chips",
+    sources: "parade.com",
+    type: "clean",
+    id: "28",
+    url: null
 }
 ```
