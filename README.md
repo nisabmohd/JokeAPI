@@ -11,7 +11,7 @@
 #### Get clean jokes
 
 ```
-  GET /clean
+  https://jokesapinodejs.herokuapp.com/clean
 ```
 
 | Parameter | Type     | Description                |
@@ -21,7 +21,7 @@
 #### Get dank jokes
 
 ```
-  GET /dank
+  https://jokesapinodejs.herokuapp.com/dank
 ```
 
 | Parameter | Type     | Description                       |
@@ -34,7 +34,7 @@
 #### Get jokes from below Parameter 
 
 ```
-  GET /{Parameter}
+  https://jokesapinodejs.herokuapp.com/{Parameter}
 ```
 
 | Parameter | Type     | Description                       |
