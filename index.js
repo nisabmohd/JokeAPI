@@ -1,6 +1,7 @@
 const http = require("http")
 const fs = require("fs");
-
+var host = process.env.PORT ? '0.0.0.0' : '127.0.0.1';
+var port = process.env.PORT || 8080;
 const server = http.createServer((req, res) => {
     if (req.url === "/dank") {
         fs.readFile(`${__dirname}/json/dank.json`, 'utf-8', (err, data) => {
@@ -41,4 +42,6 @@ const server = http.createServer((req, res) => {
     }
 })
 
-server.listen(process.env.PORT || 8000)
+server.listen(port,host,()=>{
+    console.log('Running CORS Anywhere on ' + host + ':' + port);
+})
