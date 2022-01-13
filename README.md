@@ -40,7 +40,7 @@
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `dank`      | `string` | `dank jokes` |
-| `political`      | `string` | `political jokes` |
+| `clean`      | `string` | `clean jokes` |
 | `dry `      | `string` | `dry  jokes` |
 | `dumb`      | `string` | `dumb jokes` |
 
