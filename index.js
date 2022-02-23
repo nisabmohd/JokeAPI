@@ -8,6 +8,7 @@ const server = http.createServer((req, res) => {
             const a = (JSON.parse(data));
             const len = a.length;
             const t = Math.floor(Math.random() * len)
+            res.writeHead(200,{"ContentType":"application/json"});
             res.end(JSON.stringify(a[t]))
         })
     }
@@ -16,6 +17,7 @@ const server = http.createServer((req, res) => {
             const a = (JSON.parse(data));
             const len = a.length;
             const t = Math.floor(Math.random() * len)
+             res.writeHead(200,{"ContentType":"application/json"});
             res.end(JSON.stringify(a[t]))
         })
     }
@@ -24,6 +26,7 @@ const server = http.createServer((req, res) => {
             const a = (JSON.parse(data));
             const len = a.length;
             const t = Math.floor(Math.random() * len)
+          res.writeHead(200,{"ContentType":"application/json"});
             res.end(JSON.stringify(a[t]))
         })
     }
@@ -32,16 +35,18 @@ const server = http.createServer((req, res) => {
             const a = (JSON.parse(data));
             const len = a.length;
             const t = Math.floor(Math.random() * len)
+             res.writeHead(200,{"ContentType":"application/json"});
             res.end(JSON.stringify(a[t]))
         })
     }
     else {
        fs.readFile(`${__dirname}/json/err.json`,"utf-8",(err,data)=>{
+           res.writeHead(400,{"ContentType":"application/json"});
             res.end(data)
        })
     }
 })
 
 server.listen(port,host,()=>{
-    console.log('Running CORS Anywhere on ' + host + ':' + port);
+    console.log('Server running on ' + host + ':' + port);
 })
