@@ -13,7 +13,7 @@
 #### Get clean jokes
 
 ```
-  https://jokesapinodejs.herokuapp.com/clean
+  https://jokesapi01.herokuapp.com/clean
 ```
 
 | Parameter | Type     | Description                |
@@ -36,7 +36,7 @@
 #### Get jokes from below Parameter 
 
 ```
-  https://jokesapinodejs.herokuapp.com/{Parameter}
+https://jokesapi01.herokuapp.com/{Parameter}
 ```
 
 | Parameter | Type     | Description                       |
