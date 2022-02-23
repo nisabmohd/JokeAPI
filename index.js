@@ -49,8 +49,4 @@ const server = http.createServer((req, res) => {
 
 server.listen(port,host,()=>{
     console.log('Server running on ' + host + ':' + port);
-<<<<<<< HEAD
 })
-=======
-})
->>>>>>> 305b06c26199cfa7b2f7359e69ec5e1d6df84e84
