@@ -13,7 +13,7 @@
 #### Get clean jokes
 
 ```
-  https://jokesapi01.herokuapp.com/clean
+https://jokesapi01.herokuapp.com/clean
 ```
 
 | Parameter | Type     | Description                |
@@ -23,7 +23,7 @@
 #### Get dank jokes
 
 ```
-  https://jokesapinodejs.herokuapp.com/dank
+https://jokesapi01.herokuapp.com//dank
 ```
 
 | Parameter | Type     | Description                       |
