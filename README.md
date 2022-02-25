@@ -23,7 +23,7 @@ https://jokesapi01.herokuapp.com/clean
 #### Get dank jokes
 
 ```
-https://jokesapi01.herokuapp.com//dank
+https://jokesapi01.herokuapp.com/dank
 ```
 
 | Parameter | Type     | Description                       |
